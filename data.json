@@ -2,11 +2,50 @@
   "company": {
     "name": "Andina Insurance Group",
     "industry": "Financial Services",
-    "revenue": "$12.4M"
+    "annualRevenue": "$12.4M"
   },
   "metrics": {
-    "documentsUploaded": 120,
-    "dataPoints": 450,
-    "questionsAnswered": 89
-  }
+    "documentsUploaded": 128,
+    "dataPoints": 462,
+    "questionsAnswered": 87
+  },
+  "business": {
+    "totalPremium": {
+      "value": "$24.8M",
+      "label": "Total Premium"
+    },
+    "totalClients": {
+      "value": 1850,
+      "label": "Clients in Industry"
+    },
+    "activePolicies": {
+      "value": 2730,
+      "label": "Active Policies"
+    }
+  },
+  "findings": {
+    "keyFindings": 6,
+    "backgroundNumber": 42
+  },
+  "cards": [
+    {
+      "companyName": "Bolivar Insurance",
+      "revenue": "$9.1M",
+      "usPremium": "$3.2M",
+      "globalPremium": "$12.5M"
+    },
+    {
+      "companyName": "Sura Group",
+      "revenue": "$14.7M",
+      "usPremium": "$5.6M",
+      "globalPremium": "$18.9M"
+    },
+    {
+      "companyName": "Mapfre LatAm",
+      "revenue": "$11.3M",
+      "usPremium": "$4.1M",
+      "globalPremium": "$15.2M"
+    }
+  ]
 }
+``
