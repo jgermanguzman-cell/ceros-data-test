@@ -1,0 +1,12 @@
+{
+  "company": {
+    "name": "Andina Insurance Group",
+    "industry": "Financial Services",
+    "revenue": "$12.4M"
+  },
+  "metrics": {
+    "documentsUploaded": 120,
+    "dataPoints": 450,
+    "questionsAnswered": 89
+  }
+}
