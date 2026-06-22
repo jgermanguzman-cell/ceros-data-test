@@ -1,51 +1,154 @@
 {
-  "company": {
-    "name": "Andina Insurance Group",
-    "industry": "Financial Services",
-    "annualRevenue": "$12.4M"
-  },
-  "metrics": {
-    "documentsUploaded": 128,
-    "dataPoints": 462,
-    "questionsAnswered": 87
-  },
-  "business": {
-    "totalPremium": {
-      "value": "$24.8M",
-      "label": "Total Premium"
-    },
-    "totalClients": {
-      "value": 1850,
-      "label": "Clients in Industry"
-    },
-    "activePolicies": {
-      "value": 2730,
-      "label": "Active Policies"
-    }
-  },
-  "findings": {
-    "keyFindings": 6,
-    "backgroundNumber": 42
-  },
-  "cards": [
-    {
-      "companyName": "Bolivar Insurance",
-      "revenue": "$9.1M",
-      "usPremium": "$3.2M",
-      "globalPremium": "$12.5M"
-    },
-    {
-      "companyName": "Sura Group",
-      "revenue": "$14.7M",
-      "usPremium": "$5.6M",
-      "globalPremium": "$18.9M"
-    },
-    {
-      "companyName": "Mapfre LatAm",
-      "revenue": "$11.3M",
-      "usPremium": "$4.1M",
-      "globalPremium": "$15.2M"
-    }
-  ]
+  "clients": {
+    "default": {
+      "company": {
+        "name": "Andina Insurance Group",
+        "industry": "Financial Services",
+        "annualRevenue": "$12.4M"
+      },
+      "metrics": {
+        "documentsUploaded": 128,
+        "dataPoints": 462,
+        "questionsAnswered": 87
+      },
+      "business": {
+        "totalPremium": {
+          "value": "$24.8M",
+          "label": "Total Premium"
+        },
+        "totalClients": {
+          "value": 1850,
+          "label": "Clients in Industry"
+        },
+        "activePolicies": {
+          "value": 2730,
+          "label": "Active Policies"
+        }
+      },
+      "findings": {
+        "keyFindings": 6,
+        "backgroundNumber": 42
+      },
+      "cards": [
+        {
+          "companyName": "Bolivar Insurance",
+          "revenue": "$9.1M",
+          "usPremium": "$3.2M",
+          "globalPremium": "$12.5M"
+        },
+        {
+          "companyName": "Sura Group",
+          "revenue": "$14.7M",
+          "usPremium": "$5.6M",
+          "globalPremium": "$18.9M"
+        },
+        {
+          "companyName": "Mapfre LatAm",
+          "revenue": "$11.3M",
+          "usPremium": "$4.1M",
+          "globalPremium": "$15.2M"
+        }
+      ]
+    },
+    "acme": {
+      "company": {
+        "name": "Acme Risk Partners",
+        "industry": "Insurance Brokerage",
+        "annualRevenue": "$19.6M"
+      },
+      "metrics": {
+        "documentsUploaded": 214,
+        "dataPoints": 739,
+        "questionsAnswered": 121
+      },
+      "business": {
+        "totalPremium": {
+          "value": "$31.2M",
+          "label": "Total Premium"
+        },
+        "totalClients": {
+          "value": 2640,
+          "label": "Clients in Industry"
+        },
+        "activePolicies": {
+          "value": 3512,
+          "label": "Active Policies"
+        }
+      },
+      "findings": {
+        "keyFindings": 8,
+        "backgroundNumber": 57
+      },
+      "cards": [
+        {
+          "companyName": "NorthBridge Mutual",
+          "revenue": "$12.3M",
+          "usPremium": "$4.9M",
+          "globalPremium": "$16.1M"
+        },
+        {
+          "companyName": "Atlas Coverage",
+          "revenue": "$15.8M",
+          "usPremium": "$6.1M",
+          "globalPremium": "$20.4M"
+        },
+        {
+          "companyName": "Crestline Assurance",
+          "revenue": "$13.6M",
+          "usPremium": "$5.3M",
+          "globalPremium": "$17.7M"
+        }
+      ]
+    },
+    "globex": {
+      "company": {
+        "name": "Globex Insurance Holdings",
+        "industry": "Commercial Insurance",
+        "annualRevenue": "$27.9M"
+      },
+      "metrics": {
+        "documentsUploaded": 301,
+        "dataPoints": 982,
+        "questionsAnswered": 144
+      },
+      "business": {
+        "totalPremium": {
+          "value": "$45.4M",
+          "label": "Total Premium"
+        },
+        "totalClients": {
+          "value": 3925,
+          "label": "Clients in Industry"
+        },
+        "activePolicies": {
+          "value": 4890,
+          "label": "Active Policies"
+        }
+      },
+      "findings": {
+        "keyFindings": 10,
+        "backgroundNumber": 73
+      },
+      "cards": [
+        {
+          "companyName": "Summit Life",
+          "revenue": "$18.4M",
+          "usPremium": "$7.2M",
+          "globalPremium": "$23.8M"
+        },
+        {
+          "companyName": "Harbor Re",
+          "revenue": "$21.1M",
+          "usPremium": "$8.4M",
+          "globalPremium": "$27.5M"
+        },
+        {
+          "companyName": "Apex Underwriters",
+          "revenue": "$19.7M",
+          "usPremium": "$7.8M",
+          "globalPremium": "$25.2M"
+        }
+      ]
+    }
+  }
 }
-``
