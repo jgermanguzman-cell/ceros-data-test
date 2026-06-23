@@ -1,13 +1,56 @@
 {
   "clients": {
     "default": {
-      "value": "Andina Insurance Group"
+      "company": {
+        "name": "Acme Insurance Group",
+        "industry": "Financial Services",
+        "annualRevenue": "$4.2B"
+      },
+      "metrics": {
+        "documentsUploaded": "1,248",
+        "dataPointsIdentified": "18,540",
+        "questionsAnswered": "96"
+      },
+      "business": {
+        "totalPremium": {
+          "value": "$2.1B",
+          "label": "Global written premium"
+        },
+        "totalClientsIndustry": {
+          "value": "3,420",
+          "label": "Clients in industry segment"
+        },
+        "activePolicies": {
+          "value": "12,870",
+          "label": "Active policy count"
+        }
+      }
     },
-    "acme": {
-      "value": "Acme Risk Partners"
-    },
-    "globex": {
-      "value": "Globex Insurance Holdings"
+    "client-a": {
+      "company": {
+        "name": "Northstar Risk Holdings",
+        "industry": "Aerospace",
+        "annualRevenue": "$980M"
+      },
+      "metrics": {
+        "documentsUploaded": "742",
+        "dataPointsIdentified": "9,860",
+        "questionsAnswered": "71"
+      },
+      "business": {
+        "totalPremium": {
+          "value": "$640M",
+          "label": "Global written premium"
+        },
+        "totalClientsIndustry": {
+          "value": "1,155",
+          "label": "Clients in industry segment"
+        },
+        "activePolicies": {
+          "value": "4,280",
+          "label": "Active policy count"
+        }
+      }
     }
   }
 }
